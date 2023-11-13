@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+
+.logo {
+    height: 92px;
+    width: 78px;
+    margin-right: auto;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+img.logoImg {
+    height: 92px;
+    width: 78px;
+    padding: 0;
+    margin: 0;
+}
+
+.header {
+    background-color: #101923;
+    height: 100px;
+    padding: 20px 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10px;
+}
+
+.body {
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    gap: 100px;
+    background-color: #182235;
+
+}
+
+
+.bodyText {
+    color: #eeeeee;
+    font-family: Roboto, Helvetica, Sans-serif;
+    font-size: 24px;
+    width: 400px;
+}
+
+.menuBar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 400px;
+}
+
+
+
+a {
+    color: #cccccc;
+    font-family: Roboto, Helvetica, Sans-serif;
+    font-size: 26px;
+    text-decoration: none;
+    
+    
+}
+a:hover {
+    color: #eeeeee;
+    transition: 0.1s;
+}
+
+a:active {
+    color: #999999;
+}
+
+.footer {
+    height: 50px;
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footertext {
+    font-size: 18px;
+    color:#e5e7eB;
+    font-family: Roboto, Helvetica, Sans-serif;
+}
+
+
+.button1{
+    background-color: #643c8c;
+    height: 80px;
+    width: 200px;
+    border: 0;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+}
+
+.button1:hover {
+    background-color: #7848a8;
+    transition: 0.1s;
+}
+.button1:active {
+    background-color: #3c2454;
+}
+
+.button2{
+    background-color: #1b584c;
+    height: 80px;
+    width: 200px;
+    border: 0;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+}
+
+.button2:hover {
+    background-color: #7848a8;
+    transition: 0.1s;
+}
+.button2:active {
+    background-color: #3c2454;
+}
