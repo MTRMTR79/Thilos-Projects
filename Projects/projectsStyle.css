@@ -113,7 +113,7 @@ a:active {
 }
 
 .button2{
-    background-color: #1b584c;
+    background-color: rgb(0, 143, 98);
     height: 80px;
     width: 200px;
     border: 0;
@@ -125,9 +125,40 @@ a:active {
 }
 
 .button2:hover {
-    background-color: #7848a8;
+    background-color: rgb(0, 172, 118);
     transition: 0.1s;
 }
 .button2:active {
-    background-color: #3c2454;
+    background-color: rgb(0, 86, 59);
+}
+
+.backToTop {
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    background-color: #182235;
+
+}
+
+
+.oculusProjectImg{
+    height: 200px;
+    width: auto;
+    border-radius: 10px;
+}
+
+.pageTitle {
+    color: #cccccc;
+    font-family: Roboto, Helvetica, Sans-serif;
+    font-size: 42px;
+    margin:auto
+}
+
+.hyperlink  {
+    text-decoration: underline;
+}
+
+.oculusGripText2 {
+    width: 550px;
 }
