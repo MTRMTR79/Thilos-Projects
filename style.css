@@ -52,11 +52,20 @@ img.introPhoto{
 }
 
 
-.bodyText {
+.bodyTextR {
     color: #eeeeee;
     font-family: Roboto, Helvetica, Sans-serif;
     font-size: 24px;
     width: 400px;
+    margin-left: auto;
+}
+
+.bodyTextL {
+    color: #eeeeee;
+    font-family: Roboto, Helvetica, Sans-serif;
+    font-size: 24px;
+    width: 400px;
+    margin-right: auto;
 }
 
 .menuBar {
@@ -155,4 +164,29 @@ a:active {
     font-family: Roboto, Helvetica, Sans-serif;
     font-size: 42px;
     margin:auto
+}
+
+
+.verticalContent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 700px;
+    flex: 0, 0 auto;
+
+}
+
+.horizontalContent {
+    display: flex;
+    align-self: stretch;
+    
+}
+
+.panelTitle {
+    color: #eeeeee;
+    font-family: Roboto, Helvetica, Sans-serif;
+    font-size: 32px;
+    text-align: left;
+    width: auto;
+    align-self: flex-start;
 }
