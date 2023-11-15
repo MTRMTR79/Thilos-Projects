@@ -190,3 +190,7 @@ a:active {
     width: auto;
     align-self: flex-start;
 }
+
+.projects.body:hover {
+    background-color: rgb(30, 43, 66)
+}
