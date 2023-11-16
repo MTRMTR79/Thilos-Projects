@@ -157,6 +157,28 @@ a:active {
     border-radius: 10px;
 }
 
+.cardCaseImg{
+    height: 200px;
+    
+    border-radius: 10px;
+}
+
+.cardCaseImg2{
+    height: 150px;
+    width: auto;
+    border-radius: 10px;
+}
+
+.cardCaseImg3{
+    height: 180px;
+    width: auto;
+    border-radius: 10px;
+}
+
+.rightImg {
+    margin-left: auto;
+}
+
 .pageTitle {
     color: #cccccc;
     font-family: Roboto, Helvetica, Sans-serif;
@@ -188,6 +210,12 @@ a:active {
     
 }
 
+.horizontalContent2 {
+    display: flex;
+    align-self: stretch;
+    justify-content: space-around;
+}
+
 .panelTitle {
     color: #eeeeee;
     font-family: Roboto, Helvetica, Sans-serif;
@@ -196,3 +224,4 @@ a:active {
     width: auto;
     align-self: flex-start;
 }
+
