@@ -25,16 +25,16 @@ img.logoImg {
 
 .header {
     background-color: #101923;
-    height: 100px;
     padding: 20px 100px;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    gap: 10px;
+    gap: 20px;
 }
 
 .body {
-    height: 300px;
+    padding-top: 40px;
+    padding-bottom: 40px;
     display: flex;
     align-items: center;
     justify-content:center;
@@ -64,7 +64,7 @@ img.logoImg {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    width: 400px;
+    margin-left: auto ;
 }
 
 
@@ -156,6 +156,11 @@ a:active {
     width: auto;
     border-radius: 10px;
 }
+.oculusProjectImg2{
+    height: 150px;
+    width: auto;
+    border-radius: 10px;
+}
 
 .cardCaseImg{
     height: 200px;
@@ -183,7 +188,6 @@ a:active {
     color: #cccccc;
     font-family: Roboto, Helvetica, Sans-serif;
     font-size: 42px;
-    margin:auto
 }
 
 .hyperlink  {
@@ -201,12 +205,18 @@ a:active {
     width: 700px;
     flex: 0, 0 auto;
     gap: 5px;
+    margin-left: 50px;
+    margin-right: 50px;
 
 }
 
 .horizontalContent {
     display: flex;
     align-self: stretch;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    gap: 30px;
     
 }
 

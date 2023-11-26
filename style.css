@@ -42,7 +42,8 @@ img.introPhoto{
 }
 
 .body {
-    height: 300px;
+    padding-top: 40px;
+    padding-bottom: 40px;
     display: flex;
     align-items: center;
     justify-content:center;
@@ -159,6 +160,10 @@ a:active {
     border-radius: 10px;
 }
 
+.cardCaseImg{
+    height: 150px;
+}
+
 .pageTitle {
     color: #cccccc;
     font-family: Roboto, Helvetica, Sans-serif;
@@ -173,12 +178,19 @@ a:active {
     align-items: center;
     width: 700px;
     flex: 0, 0 auto;
+    gap: 10px;
+    margin-left: 50px;
+    margin-right: 50px;
 
 }
 
 .horizontalContent {
     display: flex;
     align-self: stretch;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    gap: 30px;
     
 }
 
@@ -193,4 +205,7 @@ a:active {
 
 .projects.body:hover {
     background-color: rgb(30, 43, 66)
+}
+.projects.body.bodyEnd:hover {
+    background-color: #182235;
 }
